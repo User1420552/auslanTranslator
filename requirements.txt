@@ -1,0 +1,7 @@
+tensorflow
+opencv-python~=4.8.1.78
+mediapipe
+scikit-learn
+matplotlib
+numpy~=1.26.1
+flask
