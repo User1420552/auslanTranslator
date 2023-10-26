@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1 class="text-center">Video Details</h1>
+    <div class="mb-3">
+        <h2>{{ filename }}</h2>
+    </div>
+    <video width=300; controls>
+        <source src="{{ selected_video_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+{% endblock %}

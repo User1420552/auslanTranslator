@@ -1,7 +1,8 @@
 tensorflow
 opencv-python~=4.8.1.78
-mediapipe
+mediapipe~=0.10.7
 scikit-learn
-matplotlib
+matplotlib~=3.8.0
 numpy~=1.26.1
-flask
+flask~=3.0.0
+werkzeug~=3.0.0
